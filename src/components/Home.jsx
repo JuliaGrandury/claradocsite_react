@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import ThumbnailIMG from '../assets/awashawash.jpeg'
 
-const HeaderContainer = styled.div`
+const HomeContainer = styled.div`
     width: 100vw;
     height: 100vh;
     background-image: url(${ThumbnailIMG});
@@ -10,12 +10,14 @@ const HeaderContainer = styled.div`
     color: var(--color-white);
   `;
 
-const Header = () => {
+const Home = () => {
   return (
-    <HeaderContainer>
-      <h1>Awash Awash</h1>
-    </HeaderContainer>
+    <header>
+      <HomeContainer>
+        <h1>Awash Awash</h1>
+      </HomeContainer>
+    </header>
   )
 }
 
-export default Header
+export default Home

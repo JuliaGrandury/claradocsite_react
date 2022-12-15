@@ -1,5 +1,5 @@
 import Nav from './components//Nav'
-import Header from './components/Header'
+import Home from './components/Home'
 import Trailer from './components/Trailer'
 import About from './components/About'
 import Bios from './components/Bios'
@@ -11,10 +11,10 @@ const App = () => {
   return (
     <>
       <Nav />
-      <Header />
+      <Home />
       <Trailer />
-      <About />
-      <Bios />
+      {/* <About /> */}
+      {/* <Bios /> */}
       <Screenings />
       <Credits />
       <Footer />

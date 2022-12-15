@@ -1,5 +1,5 @@
 import React from 'react'
-import './Footer.css'
+import './footer.css'
 
 const Footer = () => {
   return (
@@ -15,7 +15,7 @@ const Footer = () => {
       </ul>
 
       <div className='footer__copyright'>
-        <small>&copy; Julia Grandury. All rights reserved.</small>
+        <p>&copy; <a href='https://juliagrandury.github.io/'>Julia Grandury</a>. All rights reserved.</p>
       </div>
     </footer>
   )
