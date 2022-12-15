@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/claradocsite_react/static/css/main.d1550dde.css",
-    "main.js": "/claradocsite_react/static/js/main.ee4183e5.js",
+    "main.css": "/claradocsite_react/static/css/main.0d91a0f1.css",
+    "main.js": "/claradocsite_react/static/js/main.db84872f.js",
     "static/js/787.be309cca.chunk.js": "/claradocsite_react/static/js/787.be309cca.chunk.js",
     "static/media/awashawash.jpeg": "/claradocsite_react/static/media/awashawash.fdd60f28502c7656a5de.jpeg",
     "static/media/profile.jpg": "/claradocsite_react/static/media/profile.9b0a100f2dfb2c5fd4db.jpg",
     "index.html": "/claradocsite_react/index.html",
-    "main.d1550dde.css.map": "/claradocsite_react/static/css/main.d1550dde.css.map",
-    "main.ee4183e5.js.map": "/claradocsite_react/static/js/main.ee4183e5.js.map",
+    "main.0d91a0f1.css.map": "/claradocsite_react/static/css/main.0d91a0f1.css.map",
+    "main.db84872f.js.map": "/claradocsite_react/static/js/main.db84872f.js.map",
     "787.be309cca.chunk.js.map": "/claradocsite_react/static/js/787.be309cca.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1550dde.css",
-    "static/js/main.ee4183e5.js"
+    "static/css/main.0d91a0f1.css",
+    "static/js/main.db84872f.js"
   ]
 }
