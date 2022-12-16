@@ -1,2 +1,2 @@
-Built for a Clara Charring production. 
-Please contact me on my [website](https://juliagrandury.github.io/) to inquire about my services.
+Built for a Clara Charrin production. 
+Please contact me through my [website](https://juliagrandury.github.io/) or at juliagrandury.freelance@gmail.com to inquire about my services.
