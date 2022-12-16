@@ -15,7 +15,7 @@ const Footer = () => {
       </ul>
 
       <div className='footer__copyright'>
-        <p>&copy; <a href='https://juliagrandury.github.io/'>Julia Grandury</a>. All rights reserved.</p>
+        <p>&copy; Built by <a href='https://juliagrandury.github.io/'>Julia Grandury</a>. All rights reserved.</p>
       </div>
     </footer>
   )

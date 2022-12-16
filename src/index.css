@@ -71,12 +71,11 @@ h3 {
 
 section {
     margin-bottom: 8rem;
-    /* height: 100vh; */
 }
 
 section>h2 {
     text-align: center;
-    margin-bottom: 0 3rem; 
+    margin-bottom: 0 3rem;
 }
 
 a {
@@ -93,31 +92,27 @@ a:hover {
 .btn {
     width: max-content;
     display: inline-block;
-    color: var(--color-turquoise);
     padding: 0.5rem 1.2rem;
-    border-radius: 0.4rem;
+    border-radius: 0.1rem;
     cursor: pointer;
-    border: 1px solid var(--color-turquoise);
+    border: 1px solid var(--color-white);
     transition: var(--transition);
-    font-size: 12px;
+    font-size: 14px;
+    font-family: "Bebas Neue", "Arial Narrow";
+    font-weight: 500;
+    letter-spacing: 1.6px;
 }
 
 .btn:hover {
-    background: var(--color-white);
-    color: var(--color-darknavy);
+    background: var(--color-yellow);
     border-color: transparent;
 }
 
 .btn-primary {
-    background: var(--color-turquoise);
-    color: var(--color-darknavy);
+    background: var(--color-blue);
+    color: var(--color-white);
 }
 
-img {
-    display: block;
-    width: 100%;
-    object-fit: cover;
-}
 
 /* --------MEDIA QUERIES FOR MED DEVICES (medium: tablets)-------- */
 
@@ -125,9 +120,8 @@ img {
     .container {
         width: var(--container-width-md);
     }
-
     section {
-        margin-top: 6rem;
+        margin-bottom: 6rem;
     }
 }
 

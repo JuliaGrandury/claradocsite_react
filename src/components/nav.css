@@ -1,24 +1,30 @@
 nav {
-    width: max-content;
-    padding: .75rem 1rem;
+    padding: 0.5rem 1rem;
     display: flex;
     flex-wrap: nowrap;
     gap: 1rem;
 }
 
 nav a {
-    text-align: center;
-    padding: 1rem 2rem;
-    border-radius: 2px;
+    padding: 0px 10px;
     color: var(--color-blue);
     box-shadow: inset 0 0 0 0 var(--color-yellow);
-    margin: 0 -.25rem;
-    padding: 0 .25rem;
     transition: color .4s ease-in-out, box-shadow .4s ease-in-out;
 }
 
 nav a:hover {
-    box-shadow: inset 120px 0 0 0 var(--color-yellow);
+    box-shadow: inset 100px 0 0 0 var(--color-yellow);
     color: var(--color-white);
 }
 
+/* --------MEDIA QUERIES FOR MED DEVICES (medium: tablets)-------- */
+
+@media screen and (max-width: 1024px) {
+  
+}
+
+/* --------MEDIA QUERIES FOR SMALL DEVICES (small: mobile)-------- */
+
+@media screen and (max-width: 600px) {
+
+}

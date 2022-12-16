@@ -1,0 +1,7 @@
+.header__container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../assets/awashawash.jpeg');
+    background-size: cover;
+    color: var(--color-white);
+}

@@ -1,0 +1,32 @@
+.container.newsletter__container {
+    width: 50%;
+    /* margin-bottom: 4rem; */
+}
+
+p {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+::placeholder {
+    color: var(--color-bg-dark);
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 1px solid var(--color-bg-dark);
+    color: var(--color-blue);
+}
+
+form>button {
+    align-content: center;
+}

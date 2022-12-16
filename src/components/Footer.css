@@ -8,16 +8,20 @@ footer h3 {
     color: var(--color-white);
 }
 
-.permalinks a {
-    color: var(--color-yellow);
-}
-
 .permalinks {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
     margin: 1rem auto 1rem;
+}
+
+.permalinks a {
+    color: var(--color-yellow);
+}
+
+.permalinks a:hover {
+    color: var(--color-white);
 }
 
 .footer__copyright {
