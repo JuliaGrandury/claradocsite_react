@@ -1,0 +1,41 @@
+#bios>h2 {
+    padding-bottom: 2rem;
+    font-size: 60px;
+}
+
+.bio__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+}
+
+.bio__item {
+    background-color: var(--color-bg-dark);
+    border-radius: 5px;
+}
+
+.bio__image {
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+/* --------MEDIA QUERIES FOR MED DEVICES (medium: tablets)-------- */
+
+@media screen and (max-width: 1024px) {
+    .bio__container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+    }
+}
+
+/* --------MEDIA QUERIES FOR SMALL DEVICES (small: mobile)-------- */
+
+@media screen and (max-width: 600px) {
+    .bio__container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    #bios>h2 {
+        padding-bottom: 0;
+    }
+}

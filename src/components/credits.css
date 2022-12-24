@@ -1,6 +1,7 @@
 #credits>h2 {
-    background-color: var(--color-bg-dark);
-    color: var(--color-white);
+    font-size: 60px;
+    /* background-color: var(--color-bg-dark);
+    color: var(--color-white); */
 }
 
 .credits__container {
@@ -8,7 +9,6 @@
     grid-template-columns: 1fr 2fr;
     gap: 1.5rem;
     align-items: center;
-    margin-top: 6rem;
 }
 
 .credits__container>div {
@@ -16,7 +16,6 @@
 }
 
 .left__container {
-    background-color: var(--color-bg-dark);
     border-radius: 3px;
 }
 
@@ -28,10 +27,11 @@
 }
 
 .right__container {
-    /* background-color: var(--color-bg-dark); */
     padding: 2rem 1rem;
     color: var(--color-blue);
     font-weight: 400;
+    font-size: 18px;
+    text-align: justify;
 }
 
 .social__icons {
@@ -43,7 +43,7 @@
 }
 
 .social__icons a {
-    color: var(--color-white);
+    color: var(--color-blue);
 }
 
 .social__icons a:hover {
@@ -54,6 +54,7 @@
 
 @media screen and (max-width: 1024px) {
     .credits__container {
+        margin-top: 0;
         grid-template-columns: 1fr;
     }
 }

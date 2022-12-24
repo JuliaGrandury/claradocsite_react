@@ -27,3 +27,39 @@
     width: 100%;
     position: absolute;
 }
+
+.trailer-button {
+    display: none;
+}
+
+
+/* --------MEDIA QUERIES FOR MED DEVICES (medium: tablets)-------- */
+
+@media screen and (max-width: 1024px) {
+    .trailer__container {
+        display: block;
+    }
+
+    .trailer__container>h2 {
+        transform: rotate(0deg);
+        text-align: center;
+    }
+}
+
+/* --------MEDIA QUERIES FOR SMALL DEVICES (small: mobile)-------- */
+
+@media screen and (max-width: 600px) {
+    .trailer__container {
+        padding: 4rem 0rem;
+    }
+
+    .video-responsive {
+        display: none;
+    }
+
+    .trailer-button {
+        padding-top: 1rem;
+        text-align: center;
+        display: block; 
+    }
+}

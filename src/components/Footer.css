@@ -5,6 +5,7 @@ footer {
 } 
 
 footer h3 {
+    padding-top: 1rem;
     color: var(--color-white);
 }
 

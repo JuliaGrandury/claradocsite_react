@@ -1,21 +1,28 @@
+#screenings {
+    padding: 5rem;
+    background-color: var(--color-bg-dark);
+    color: var(--color-white);
+}
+
 .container.newsletter__container {
-    width: 50%;
+    width: 60%;
     /* margin-bottom: 4rem; */
 }
 
-p {
+#screenings>p {
     text-align: center;
+    padding-bottom: 2rem;
 }
 
 form {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    margin-top: 1rem;
+    margin: 3rem 0;
 }
 
 ::placeholder {
-    color: var(--color-bg-dark);
+    color: var(--color);
 }
 
 input,
@@ -23,10 +30,22 @@ textarea {
     width: 100%;
     padding: 1rem;
     border-radius: 5px;
-    border: 1px solid var(--color-bg-dark);
+    border: 1px solid var(--color-white);
     color: var(--color-blue);
 }
 
-form>button {
-    align-content: center;
+form>.btn {
+    margin: auto;
+}
+
+/* --------MEDIA QUERIES FOR SMALL DEVICES (small: mobile)-------- */
+
+@media screen and (max-width: 600px) {
+    .container.newsletter__container {
+        width: 90%;
+    }
+
+    #screenings>h2 {
+        line-height: normal;
+    }
 }

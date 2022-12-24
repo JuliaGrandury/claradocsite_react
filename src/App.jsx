@@ -14,7 +14,7 @@ const App = () => {
       <Home />
       <Trailer />
       {/* <About /> */}
-      {/* <Bios /> */}
+      <Bios />
       <Screenings />
       <Credits />
       <Footer />

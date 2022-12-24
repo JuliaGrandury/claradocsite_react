@@ -3,5 +3,28 @@
     height: 100vh;
     background-image: url('../assets/awashawash.jpeg');
     background-size: cover;
+    background-repeat: no-repeat;
     color: var(--color-white);
+}
+
+
+/* --------MEDIA QUERIES FOR MED DEVICES (medium: tablets)-------- */
+
+@media screen and (max-width: 1024px) {
+    .header__container {
+        background-image: url('../assets/awashawash2.jpeg');
+    }
+
+    .header__container>h1 {
+        line-height: normal;
+        padding-top: 10rem;
+    }
+}
+
+/* --------MEDIA QUERIES FOR SMALL DEVICES (small: mobile)-------- */
+
+@media screen and (max-width: 600px) {
+    .header__container>h1 {
+        line-height: normal;
+    }
 }
